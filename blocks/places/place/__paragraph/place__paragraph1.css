@@ -1,0 +1,6 @@
+.place__paragraph1 {
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+    grid-area: paragraph1;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url(../vendor/inter_desktop/Inter-Black.otf),
+    url(../vendor/inter_desktop/Inter-BlackItalic.otf),
+    url(../vendor/inter_desktop/Inter-Bold.otf),
+    url(../vendor/inter_desktop/Inter-BoldItalic.otf),
+    url(../vendor/inter_desktop/Inter-ExtraBold.otf),
+    url(../vendor/inter_desktop/Inter-ExtraBoldItalic.otf),
+    url(../vendor/inter_desktop/Inter-ExtraLight.otf),
+    url(../vendor/inter_desktop/Inter-ExtraLightItalic.otf),
+    url(../vendor/inter_desktop/Inter-Italic.otf),
+    url(../vendor/inter_desktop/Inter-Light.otf),
+    url(../vendor/inter_desktop/Inter-LightItalic.otf),
+    url(../vendor/inter_desktop/Inter-Medium.otf),
+    url(../vendor/inter_desktop/Inter-MediumItalic.otf),
+    url(../vendor/inter_desktop/Inter-Regular.otf),
+    url(../vendor/inter_desktop/Inter-SemiBold.otf),
+    url(../vendor/inter_desktop/Inter-SemiBoldItalic.otf),
+    url(../vendor/inter_desktop/Inter-Thin.otf),
+    url(../vendor/inter_desktop/Inter-ThinItalic.otf);
+}
