@@ -20,11 +20,11 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places__place/places__place.css);
 @import url(../blocks/places/places__place/__place-title/places__place-title.css);
-@import url(../blocks/places/places__place/__paragraph/place__paragraph.css);
-@import url(../blocks/places/places__place/__image/place__image.css);
-@import url(../blocks/places/places__place/__website/place__website.css);
-@import url(../blocks/places/places__place/__link/place__link.css);
-@import url(../blocks/places/places__place/__url-heading/place__url-heading.css);
+@import url(../blocks/places/places__place/__place-paragraph/places__place-paragraph.css);
+@import url(../blocks/places/places__place/__place-image/places__place-image.css);
+@import url(../blocks/places/places__place/__place-website/places__place-website.css);
+@import url(../blocks/places/places__place/__place-link/places__place-link.css);
+@import url(../blocks/places/places__place/__place-url-heading/places__place-url-heading.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
