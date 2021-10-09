@@ -1,35 +1,82 @@
 @media screen and (min-width: 1280px) {
     .cover {
-        width: 1184px;
-        height: 740px;
-        position: relative;
+        font-family: 'Inter-Regular';
+        display: grid;
+        flex-direction: column;
+        max-width: 1184px;
+        min-height: 740px;
+        background-size: cover;
         margin: 0 auto;
+        background-image: url("../../sprint-3-images/cover-trains.jpg");
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 1;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover {
+        font-family: 'Inter-Regular';
+        display: flex;
+        flex-direction: column;
         width: 1024px;
-        height: 640px;
-        position: relative;
         margin: 0 auto;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 1;
+        background-image: url("../../sprint-3-images/cover-trains.jpg");
     } 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover {
+        font-family: 'Inter-Regular';
+        display: flex;
+        flex-direction: column;
         width: 768px;
-        height: 480px;
-        position: relative;
         margin: 0 auto;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 1;
+        background-image: url("../../sprint-3-images/cover-trains.jpg");
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .cover {
+        font-family: 'Inter-Regular';
+        display: flex;
+        flex-direction: column;
         width: 320px;
-        height: 200px;
-        position: relative;
         margin: 0 auto;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 1;
+        background-image: url("../../sprint-3-images/cover-trains.jpg");
     }
+}
+
+.cover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 1s ease;
+}
+
+.cover:hover:after {
+    opacity: 0.8;
 }

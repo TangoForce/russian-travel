@@ -1,7 +1,6 @@
 @media screen and (min-width: 1280px) {
     .place__paragraph {
         width: 484px;
-        height: 116px;
         font-size: 18px;
         line-height: 29px;
         grid-area: paragraph;
@@ -12,7 +11,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place__paragraph {
         width: 456px;
-        height: 116px;
         font-size: 18px;
         line-height: 29px;
         grid-area: paragraph;
@@ -23,7 +21,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__paragraph {
         width: 352px;
-        height: 182px;
         font-size: 16px;
         line-height: 26px;
         grid-area: paragraph;
@@ -34,7 +31,6 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .place__paragraph {
         width: 288px;
-        height: 468px;
         font-size: 16px;
         line-height: 26px;
         grid-area: paragraph;

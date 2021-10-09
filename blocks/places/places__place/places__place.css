@@ -1,5 +1,5 @@
 @media screen and (min-width: 1280px) {
-    .place {
+    .places__place {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .place {
+    .places__place {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -27,7 +27,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .place {
+    .places__place {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .place {
+    .places__place {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
