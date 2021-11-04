@@ -1,20 +1,6 @@
 @font-face {
-  font-family: 'Inter-Regular';
+  font-family: "Inter";
     src: url(../vendor/inter_desktop/Inter-Regular.otf) format("truetype");
     font-style: normal;
     font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter-Bold";
-  src: url(../vendor/inter_desktop/Inter-Bold.otf);
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter-Italic";
-  src: url(../vendor/inter_desktop/Inter-Italic.otf);
-  font-style: normal;
-  font-weight: normal;
 }

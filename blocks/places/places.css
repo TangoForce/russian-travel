@@ -1,30 +1,16 @@
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 320px) {
     .places {
-        font-family: 'Inter-Regular';
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, 20%);
         margin: 0 auto;
-        max-width: 984px;
-        max-height: 3392px;
+        max-width: 320px;
+        max-height: 5177px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 728px) {
     .places {
-        font-family: 'Inter-Regular';
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(5, 20%);
-        margin: 0 auto;
-        max-width: 928px;
-        max-height: 3292px;
-    }
-}
-
-@media screen and (min-width: 728px) and (max-width: 1024px) {
-    .places {
-        font-family: 'Inter-Regular';
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, 20%);
@@ -34,14 +20,24 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 728px) {
+@media screen and (min-width: 1024px) {
     .places {
-        font-family: 'Inter-Regular';
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, 20%);
         margin: 0 auto;
-        max-width: 320px;
-        max-height: 5177px;
+        max-width: 928px;
+        max-height: 3292px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, 20%);
+        margin: 0 auto;
+        max-width: 984px;
+        max-height: 3392px;
     }
 }

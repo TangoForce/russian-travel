@@ -1,26 +1,27 @@
-@media screen and (min-width: 1024px) {
-    .intro__list {
-        width: 690px;
-        font-size: 12px;
-        line-height: 18px;
-        color: white;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .intro__list {
-        width: 720px;
-        font-size: 12px;
-        line-height: 18px;
-        color: white;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) {
     .intro__list {
         width: 288px;
         font-size: 12px;
         line-height: 18px;
         color: white;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__list {
+        width: 720px;
+        font-size: 12px;
+        line-height: 18px;
+        color: white;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__list {
+        width: 690px;
+        color: white;
+        font-weight: 400;
     }
 }

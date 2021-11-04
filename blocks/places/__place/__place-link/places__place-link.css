@@ -3,5 +3,11 @@
         font-size: 18px;
         line-height: 22px;
         color: white;
+        transition: opacity 1s ease;
+        font-weight: 400;
     }
+}
+
+.places__place-link:hover {
+    opacity: 0.8;
 }

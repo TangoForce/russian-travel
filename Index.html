@@ -12,8 +12,10 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="sprint-3-images/__logo.svg" alt="лого">
-      <a class="header__lang-link" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
+      <div class="header__lang">
+        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
+      </div>
     </header>
     <main>
 
@@ -33,37 +35,66 @@
           красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <p class="intro__list">Часовых поясов 11
-          Объектов природного наследия ЮНЕСКО 12
-          Объектов культурного наследия ЮНЕСКО 16
-          Природных заповедников 105
-          Аэропортов 241</p>
+        <div class="intro__list">
+          <p class="intro__list-item">Часовых поясов 11</p>
+          <p class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</p>
+          <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</p>
+          <p class="intro__list-item">Природных заповедников 105</p>
+          <p class="intro__list-item">Аэропортов 241</p>
+        </div>
       </div>
 
-      <div class="photo-grid">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-train.jpg" alt="вид из окна поезда">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-atharva-tulsi.jpg" alt="горный пейзаж">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-tuman.jpg" alt="волк на холмике">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-sochi.jpg" alt="леса">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-arisa.jpg" alt="машина на льду">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-baikal.jpg" alt="морской пейзаж">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-elbrus.jpg" alt="горный пейзаж">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-kondratiev.jpg" alt="волноотбойники">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-kamchatka-1.jpg" alt="холмы и туман">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-kamchatka-2.jpg" alt="поля и горы">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-baikal-2.jpg" alt="горы">
-        <img class="photo-grid__item" src="sprint-3-images/photo-grid-ergaki.jpg" alt="туманные горы">
+      <div>
+        <ul class="photo-grid">
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-train.jpg" alt="вид из окна поезда">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-atharva-tulsi.jpg" alt="горный пейзаж">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-tuman.jpg" alt="волк на холмике">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-sochi.jpg" alt="леса">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-arisa.jpg" alt="машина на льду">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-baikal.jpg" alt="морской пейзаж">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-elbrus.jpg" alt="горный пейзаж">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-kondratiev.jpg" alt="волноотбойники">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-kamchatka-1.jpg" alt="холмы и туман">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-kamchatka-2.jpg" alt="поля и горы">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-baikal-2.jpg" alt="горы">
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__item-img" src="sprint-3-images/photo-grid-ergaki.jpg" alt="туманные горы">
+          </li>
+        </ul>
       </div>
 
       <div class="places">
         <div class="places__place">
           <h2 class="places__place-title">Куршская коса</h2>
-          <img class="places__place-image" src="sprint-3-images/place-kosa.jpg" alt="фотография Куршской косы">
           <div class="places__place-website">
             <p class="places__place-url-heading">URL</p>
-            <p class="places__place-link">park-kosa.ru</p>
+            <a class="places__place-link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
-          <p class="places__place-paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
+          <img class="places__place-image" src="sprint-3-images/place-kosa.jpg" alt="фотография Куршской косы">
+          <p class="places__place-paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+            горизонта —
             спокойного Куршского залива с одной стороны
             и подёрнутого рябью волн Балтийского моря
             с другой. Уникальная природная зона на краю российского анклава. На этом Калининградская область не
@@ -75,12 +106,14 @@
         </div>
         <div class="places__place">
           <h2 class="places__place-title">Кольский</h2>
-          <img class="places__place-image" src="sprint-3-images/place-kolsky.jpg" alt="горы Кольского полуострова">
           <div class="places__place-website">
             <p class="places__place-url-heading">URL</p>
-            <p class="places__place-link">National Geographic</p>
+            <a class="places__place-link"
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
-          <p class="places__place-paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
+          <img class="places__place-image" src="sprint-3-images/place-kolsky.jpg" alt="горы Кольского полуострова">
+          <p class="places__place-paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
+            которой на
             юг —
             тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем. Возможно, вы смотрели Звягинцева и
             даже слышали историю арктического фестиваля
@@ -91,11 +124,12 @@
         </div>
         <div class="places__place">
           <h2 class="places__place-title">Алтай</h2>
-          <img class="places__place-image" src="sprint-3-images/place-altai.jpg" alt="природа Алтая. И ноутбук">
           <div class="places__place-website">
             <p class="places__place-url-heading">URL</p>
-            <p class="places__place-link">Facebook</p>
+            <a class="places__place-link"
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
           </div>
+          <img class="places__place-image" src="sprint-3-images/place-altai.jpg" alt="природа Алтая. И ноутбук">
           <p class="places__place-paragraph">Алтай — одно из красивейших мест в России.
             В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
             озёра. А если вы откроете
@@ -107,12 +141,12 @@
         </div>
         <div class="places__place">
           <h2 class="places__place-title">Зимний Байкал</h2>
-          <img class="places__place-image" src="sprint-3-images/place-winter-baikal.jpg"
-            alt="фотография льдов зимнего Байкала">
           <div class="places__place-website">
             <p class="places__place-url-heading">URL</p>
-            <p class="places__place-link">https://vk.com/baikalmile</p>
+            <a class="places__place-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
+          <img class="places__place-image" src="sprint-3-images/place-winter-baikal.jpg"
+            alt="фотография льдов зимнего Байкала">
           <p class="places__place-paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и одно
             из красивейших мест в России. Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
@@ -122,11 +156,11 @@
         </div>
         <div class="places__place">
           <h2 class="places__place-title">Карелия</h2>
-          <img class="places__place-image" src="sprint-3-images/place-karelia.jpg" alt="фотография природы Карелии">
           <div class="places__place-website">
             <p class="places__place-url-heading">URL</p>
-            <p class="places__place-link">http://vodlozero.ru/</p>
+            <a class="places__place-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
+          <img class="places__place-image" src="sprint-3-images/place-karelia.jpg" alt="фотография природы Карелии">
           <p class="places__place-paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
             лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
             национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
@@ -143,11 +177,13 @@
       </a>
     </main>
     <footer class="footer">
-      <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-      <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-      <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-      <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-      <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+      <div class="footer__links">
+        <a class="footer__links-link" href="https://yandex.ru/maps">Карты</a>
+        <a class="footer__links-link" href="https://yandex.ru/pogoda">Погода</a>
+        <a class="footer__links-link" href="https://rasp.yandex.ru">Расписание</a>
+        <a class="footer__links-link" href="https://calendar.yandex.ru">Календарь</a>
+        <a class="footer__links-link" href="https://travel.yandex.ru">Путешествия</a>
+      </div>
       <p class="footer__copyright">© 2021. Кононов Степан</p>
     </footer>
   </div>
