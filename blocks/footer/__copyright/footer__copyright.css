@@ -5,7 +5,7 @@
         color: white;
         margin: 0;
         padding: 0;
-        justify-self: end;
+        justify-self: flex-end;
     }
 }
 
@@ -16,6 +16,6 @@
         color: white;
         margin: 0;
         padding: 0;
-        justify-self: end;
+        justify-self: flex-end;
     }
 }

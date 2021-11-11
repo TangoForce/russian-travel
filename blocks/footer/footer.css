@@ -13,6 +13,7 @@
         width: 720px;
         height: 18px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 }
@@ -22,6 +23,7 @@
         width: 928px;
         height: 18px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }    
 }
@@ -32,6 +34,6 @@
         height: 18px;
         display: flex;
         flex-direction: row;
-        margin: 92px auto 48px;
+        justify-content: space-between;
     }
 }
