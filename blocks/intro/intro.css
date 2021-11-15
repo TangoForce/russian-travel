@@ -21,7 +21,7 @@
         justify-content: center;
         width: 100%;
         max-width: 690px;
-        margin: 92px 0;
+        margin: 92px auto;
         display: flex;
         flex-direction: column;
     }
@@ -32,7 +32,7 @@
         justify-content: center;
         width: 100%;
         max-width: 690px;
-        margin: 92px 0;
+        margin: 92px auto;
         display: flex;
         flex-direction: column;
     }

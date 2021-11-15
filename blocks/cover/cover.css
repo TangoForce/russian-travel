@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 1280px) {
     .cover {
-        display: grid;
+        display: flex;
         flex-direction: column;
         max-width: 1184px;
         min-height: 740px;
