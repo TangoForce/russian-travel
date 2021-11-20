@@ -1,43 +1,34 @@
 @media screen and (min-width: 320px) {
     .place__paragraph {
-        max-width: 288px;
+        margin: 32px 16px 0;
+        padding: 0;
         font-size: 16px;
         line-height: 26px;
         color: white;
         font-weight: 400;
-        margin: 0 0 50px;
+        padding: 0 0 50px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .place__paragraph {
-        max-width: 352px;
-        font-size: 16px;
-        line-height: 26px;
+        margin: 0;
         grid-area: paragraph;
-        color: white;
-        font-weight: 400;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place__paragraph {
-        max-width: 456px;
         font-size: 18px;
         line-height: 29px;
         grid-area: paragraph;
-        color: white;
-        font-weight: 400;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place__paragraph {
-        max-width: 484px;
         font-size: 18px;
         line-height: 29px;
         grid-area: paragraph;
-        color: white;
-        font-weight: 400;
     }
 }

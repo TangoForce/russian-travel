@@ -5,10 +5,6 @@
         line-height: 16px;
         color: white;
         text-align: center;
-        top: 119px;
-        bottom: 33px;
-        left: 16px;
-        right: 16px;
         margin: 0 auto;
         text-decoration: none;
     }
@@ -19,45 +15,5 @@
         max-width: 360px;
         font-size: 18px;
         line-height: 22px;
-        color: white;
-        text-align: center;
-        top: 299px;
-        bottom: 115px;
-        left: 204px;
-        right: 204px;
-        margin: 0 auto;
-        text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .cover__subtitle {
-        max-width: 360px;
-        font-size: 18px;
-        line-height: 22px;
-        color: white;
-        text-align: center;
-        top: 379px;
-        bottom: 195px;
-        left: 332px;
-        right: 332px;
-        margin: 0 auto;
-        text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__subtitle {
-        max-width: 360px;
-        font-size: 18px;
-        line-height: 22px;
-        color: white;
-        text-align: center;
-        top: 429px;
-        bottom: 245px;
-        left: 412px;
-        right: 412px;
-        margin: 0 auto;
-        text-decoration: none;
     }
 }

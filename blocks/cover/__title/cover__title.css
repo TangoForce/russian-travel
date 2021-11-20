@@ -5,11 +5,6 @@
         line-height: 35px;
         color: white;
         text-align: center;
-        top: 33px;
-        bottom: 97px;
-        left: 16px;
-        right: 16px;
-        margin-bottom: 16px;
         margin: 0 auto;
         text-decoration: none;
     }
@@ -20,48 +15,6 @@
         max-width: 560px;
         font-size: 72px;
         line-height: 76px;
-        color: white;
-        text-align: center;
-        top: 115px;
-        bottom: 213px;
-        left: 104px;
-        right: 104px;
-        margin-bottom: 32px;
-        margin: 0 auto;
-        text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .cover__title {
-        max-width: 560px;
-        font-size: 72px;
-        line-height: 76px;
-        color: white;
-        text-align: center;
-        top: 195px;
-        bottom: 293px;
-        left: 232px;
-        right: 232px;
-        margin-bottom: 32px;
-        margin: 0 auto;
-        text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__title {
-        max-width: 560px;
-        font-size: 72px;
-        line-height: 76px;
-        color: white;
-        text-align: center;
-        top: 245px;
-        bottom: 343px;
-        left: 312px;
-        right: 312px;
-        margin-bottom: 32px;
-        margin: 0 auto;
-        text-decoration: none;
+        padding: 0 0 32px;
     }
 }
