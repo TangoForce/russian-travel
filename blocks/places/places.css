@@ -1,7 +1,7 @@
 .places {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(5, 20%);
+    grid-template-rows: repeat(5, 1fr);
     margin: 0 auto;
     justify-items: center;
 }

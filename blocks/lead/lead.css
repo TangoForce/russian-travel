@@ -3,37 +3,25 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto;
         max-width: 320px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 768px) {
     .lead {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
         max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .lead {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
         max-width: 928px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
         max-width: 984px;
     }
 }
