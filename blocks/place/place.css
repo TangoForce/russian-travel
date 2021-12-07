@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px) {
     .place {
-        padding: 0;
+        padding: 0 0 50px;
+        margin: 0;
         display: flex;
         flex-direction: column;
         max-width: 320px;
@@ -9,10 +10,10 @@
 
 @media screen and (min-width: 768px) {
     .place {
+        padding: 0 0 73px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 0.5fr);
-        grid-auto-flow: row dense;
+        grid-template-rows: repeat(2, auto);
         max-width: 720px;
         grid-template-areas:
         "title website"
@@ -22,6 +23,7 @@
 
 @media screen and (min-width: 1024px) {
     .place {
+        padding: 0 0 80px;
         max-width: 928px;
     }
 }
@@ -30,4 +32,8 @@
     .place {
         max-width: 984px;
     }
+}
+
+.place:last-of-type {
+    padding: 0;
 }
