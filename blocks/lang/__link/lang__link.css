@@ -8,11 +8,15 @@
 
 @media screen and (min-width: 768px) {
     .lang__link {
-    font-size: 24px;
-    line-height: 28px;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 
 .lang__link:first-of-type {
     margin: 0 18px 0;
+}
+
+.lang__link:hover {
+    opacity: 0.5;
 }
