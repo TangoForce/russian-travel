@@ -26,7 +26,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph-text/place__paragraph-text.css);
 @import url(../blocks/lang/__link/lang__link.css);
-@import url(../blocks/lang/__link_active/lang__link_active.css);
+@import url(../blocks/lang/__link/_active/lang__link_active.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/intro/__list/intro__list.css);
